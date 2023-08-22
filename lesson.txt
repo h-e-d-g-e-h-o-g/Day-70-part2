@@ -1,0 +1,12 @@
+In this lesson, we will learn how to prevent certain files to be committed into local or remote repository.
+The files that need to be prevented from committed into local or remote repo are:-
+(1) The files in which important info are stored such as password, api key etc.
+(2) The files that deals with local settings or user preferences such as .DS_STORE, these kind of files do not add any value.
+They store things like how you want your file icons to be arranged inside a project folder and etc. 
+NOTE:- To remove files from staging area, we use command "git rm --cached -r ."
+-r represents recursive here, and "." represents all the files that are in staging area.
+Now, talking about ".gitignore", in order to ignore files from being committed and added into the repository.
+We need to specify them in the .gitignore file.
+
+NOTE:- you can also use another way, such as if you can use "*.txt" to specify all the files with txt extension.
+or "*.log" to specify all the files with log extension.
