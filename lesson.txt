@@ -33,4 +33,8 @@ We can create another branch instead of making changes into the main branch.
 To create a new branch, we can use command "git branch branch_name".
 After creating another branch, you can still work on the main branch parallely.
 If in future, I found that the work in the another branch is useful to the repo, then I can merge the another branch
-with the main branch.
+with the main branch through command "git merge branch_name".
+To switch between branches, you need to use command "git checkout branch_name".
+To merge the side branch with the main branch, you need to be in the main branch.
+By using command "git branch" you can see all the branches that are in the repo.
+* sign represents the current branch.
