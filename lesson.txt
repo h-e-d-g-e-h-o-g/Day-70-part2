@@ -24,3 +24,13 @@ So now, why do you clone repository, it might have several purposes such as:-
 You want to clone the repository of product and want to give your own customization.
 You want to add more functionality or you found a bug and want to fix it.
 To make a clone of a repo, you need to use a command "git clone url of the remote repo".
+
+Now, talking about branches and branching.
+Here, we have one branch named "main", that is tracking our progress or the commits onto the repository.
+The main branch represents kind of main idea of the repository.
+If we want to add another functionality that may not abide with the main idea or trying to fix an error.
+We can create another branch instead of making changes into the main branch.
+To create a new branch, we can use command "git branch branch_name".
+After creating another branch, you can still work on the main branch parallely.
+If in future, I found that the work in the another branch is useful to the repo, then I can merge the another branch
+with the main branch.
